@@ -25,7 +25,7 @@ const fetchDB = () => {
         teamBestResult.textContent = `Best: ${data[0].best}`;
         teamCaptain.textContent = data[0].captain;
         teamCard.style.backgroundColor = "#8A1538";
-        teamCard.style.color = "white"
+        // teamCard.style.color = "white"
     }))
 }
 
