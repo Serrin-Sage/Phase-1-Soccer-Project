@@ -24,6 +24,8 @@ const fetchDB = () => {
         teamRecentResult.textContent = `2018: ${data[0]["2018_result"]}`
         teamBestResult.textContent = `Best: ${data[0].best}`;
         teamCaptain.textContent = data[0].captain;
+        teamCard.style.backgroundColor = "#8A1538";
+        teamCard.style.color = "white"
     }))
 }
 
@@ -42,6 +44,7 @@ const renderTeams = (teamObj) => {
         teamRecentResult.textContent = `2018: ${teamObj["2018_result"]}`;
         teamBestResult.textContent = `Best: ${teamObj.best}`
         teamCaptain.textContent = teamObj.captain;
+        teamCard.setAttribute("class", `${teamObj.country}`)
     })
 
 }
