@@ -113,8 +113,8 @@
         {
             "id": 12,
             "country": "Poland",
-            "flag": "",
-            "team_image": "./images/poland-flag.png",
+            "flag": "./images/poland-flag.png",
+            "team_image": "",
             "2018_result": "Group stage",
             "best": "Third place (1974, 1982)",
             "captain": "",
@@ -223,8 +223,8 @@
         {
             "id": 23,
             "country": "Morocco",
-            "flag": "",
-            "team_image": "./images/morocco-flag.png",
+            "flag": "./images/morocco-flag.png",
+            "team_image": "",
             "2018_result": "Group Stage",
             "best": "Round of 16 (1986)",
             "captain": "Romain Saïss",
@@ -293,7 +293,7 @@
         {
             "id": 30,
             "country": "Ghana",
-            "flag": "./images.ghana-flag.png",
+            "flag": "./images/ghana-flag.png",
             "team_image": "",
             "2018_result": "Did not qualify",
             "best": "Quarter-finals (2010)",
