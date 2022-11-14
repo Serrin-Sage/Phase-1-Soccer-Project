@@ -11,6 +11,16 @@ const teamRecentResult = document.getElementById("recent-result")
 const teamBestResult = document.getElementById("best-result")
 const teamCaptain = document.getElementById("captain")
 
+//creating variables for form
+const chooseWinnerForm = document.getElementById('choose-winner-form')
+const button = document.getElementById('button')
+
+chooseWinnerForm.addEventListener("submit", (e) => {
+    e.preventDefault()
+    let formAnswer = document.createElement('p')
+    chooseWinnerForm.innerText = chooseWinnerForm.formAnswer.value
+})
+
 
 //Fetch database, for each object => render the team
 //set initial card to first object properties
@@ -23,7 +33,7 @@ const fetchDB = () => {
         teamCountry.textContent = data[0].country;
         teamRecentResult.textContent = `2018: ${data[0]["2018_result"]}`
         teamBestResult.textContent = `Best: ${data[0].best}`;
-        teamCaptain.textContent = data[0].captain;
+        teamCaptain.textContent = `Captain: ${data[0].captain}`;
         teamCard.style.backgroundColor = "#8A1538";
         teamCard.style.color = "white"
     }))
@@ -43,7 +53,7 @@ const renderTeams = (teamObj) => {
         teamCountry.textContent = teamObj.country;
         teamRecentResult.textContent = `2018: ${teamObj["2018_result"]}`;
         teamBestResult.textContent = `Best: ${teamObj.best}`
-        teamCaptain.textContent = teamObj.captain;
+        teamCaptain.textContent = `Captain: ${teamObj.captain}`;
         teamCard.setAttribute("class", `${teamObj.country}`)
     })
 
