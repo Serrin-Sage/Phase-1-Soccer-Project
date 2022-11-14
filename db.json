@@ -13,7 +13,7 @@
         {
             "id": 2,
             "country": "Ecuador",
-            "flag": "./images/ecuador-flag.png",
+            "flag": "./images/ecuador-flag.jpg",
             "team_image": "",
             "2018_result": "Did not qualify",
             "best": "Round of 16 (2006)",
@@ -66,7 +66,7 @@
             "flag": "./images/usa-flag.png",
             "team_image": "",
             "2018_result": "Did not qualify",
-            "best": "Tird-place (1930)",
+            "best": "Third-place (1930)",
             "captain": "Vacant",
             "votes": 0
         },
@@ -76,7 +76,7 @@
             "flag": "./images/wales-flag.png",
             "team_image": "",
             "2018_result": "Did not qualify",
-            "best": "Quarter-final (1958)",
+            "best": "Quarter-finals (1958)",
             "captain": "Gareth Bale",
             "votes": 0
         },
@@ -106,7 +106,7 @@
             "flag": "./images/mexico-flag.webp",
             "team_image": "",
             "2018_result": "Round of 16",
-            "best": "Quarter-final (1970, 1986)",
+            "best": "Quarter-finals (1970, 1986)",
             "captain": "Andrés Guardado",
             "votes": 0
         },
@@ -146,7 +146,7 @@
             "flag": "./images/denmark-flag.png",
             "team_image": "",
             "2018_result": "Round of 16",
-            "best": "Quarter-final (1998)",
+            "best": "Quarter-finals (1998)",
             "captain": "Simon Kjær",
             "votes": 0
         },
@@ -173,7 +173,7 @@
         {
             "id": 18,
             "country": "Costa Rica",
-            "flag": "",
+            "flag": "./images/costarica-flag.png",
             "team_image": "",
             "2018_result": "Group Stage",
             "best": "Quarter-finals (2014)",
@@ -183,7 +183,7 @@
         {
             "id": 19,
             "country": "Germany",
-            "flag": "",
+            "flag": "./images/germany-flag.png",
             "team_image": "",
             "2018_result": "Group Stage",
             "best": "Champions (1954, 1974, 1990, 2014)",
@@ -193,7 +193,7 @@
         {
             "id": 20,
             "country": "Japan",
-            "flag": "",
+            "flag": "./images/japan-flag.png",
             "team_image": "",
             "2018_result": "Round of 16",
             "best": "Round of 16 (2002, 2010, 2018)",
@@ -203,17 +203,17 @@
         {
             "id": 21,
             "country": "Belgium",
-            "flag": "",
+            "flag": "./images/belgium-flag.png",
             "team_image": "",
             "2018_result": "Third Place",
-            "best": "Third Place (2018)",
+            "best": "Third place (2018)",
             "captain": "Eden Hazard",
             "votes": 0
         },
         {
             "id": 22,
             "country": "Canada",
-            "flag": "",
+            "flag": "./images/canada-flag.png",
             "team_image": "",
             "2018_result": "Did not qualify",
             "best": "Group Stage (1986)",
@@ -224,7 +224,7 @@
             "id": 23,
             "country": "Morocco",
             "flag": "",
-            "team_image": "",
+            "team_image": "./images/morocco-flag.png",
             "2018_result": "Group Stage",
             "best": "Round of 16 (1986)",
             "captain": "Romain Saïss",
@@ -233,17 +233,17 @@
         {
             "id": 24,
             "country": "Croatia",
-            "flag": "",
+            "flag": "./images/croatia-flag.png",
             "team_image": "",
             "2018_result": "Runners-up",
-            "best": "Runners-up (2018)",
+            "best": "Final (2018)",
             "captain": "Luka Modrić",
             "votes": 0
         },
         {
             "id": 25,
             "country": "Brazil",
-            "flag": "",
+            "flag": "./images/brazil-flag.png",
             "team_image": "",
             "2018_result": "Quarter Finals",
             "best": "Champions (1958, 1962, 1970, 1994, 2002)",
@@ -253,7 +253,7 @@
         {
             "id": 26,
             "country": "Serbia",
-            "flag": "",
+            "flag": "./images/serbia-flag.png",
             "team_image": "",
             "2018_result": "Group Stage",
             "best": "Fourth place (1930, 1962)",
@@ -263,7 +263,7 @@
         {
             "id": 27,
             "country": "Switzerland",
-            "flag": "",
+            "flag": "./images/switzerland-flag.png",
             "team_image": "",
             "2018_result": "Round of 16",
             "best": "Quarter-finals (1934, 1938, 1954)",
@@ -273,7 +273,7 @@
         {
             "id": 28,
             "country": "Cameroon",
-            "flag": "",
+            "flag": "./images/cameroon-flag.png",
             "team_image": "",
             "2018_result": "Did not qualify",
             "best": "Quarter-finals (1990)",
@@ -283,7 +283,7 @@
         {
             "id": 29,
             "country": "Portugal",
-            "flag": "",
+            "flag": "./images/portugal-flag.png",
             "team_image": "",
             "2018_result": "Round of 16",
             "best": "Third place (1966)",
@@ -293,7 +293,7 @@
         {
             "id": 30,
             "country": "Ghana",
-            "flag": "",
+            "flag": "./images.ghana-flag.png",
             "team_image": "",
             "2018_result": "Did not qualify",
             "best": "Quarter-finals (2010)",
@@ -303,7 +303,7 @@
         {
             "id": 31,
             "country": "Uruguay",
-            "flag": "",
+            "flag": "./images/uruguay-flag.png",
             "team_image": "",
             "2018_result": "Quarter Finals",
             "best": "Champions (1930, 1950)",
@@ -313,7 +313,7 @@
         {
             "id": 32,
             "country": "South Korea",
-            "flag": "",
+            "flag": "./images/southkorea-flag.webp",
             "team_image": "",
             "2018_result": "Group Stage",
             "best": "Fourth place (2002)",
