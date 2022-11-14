@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+#header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+#header h1 {
+    margin: 0;
+    padding: 1.5rem;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#display{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#card {
+    background-color: grey;
+    height: 300px;
+    width: 220px;
+}
+
+#team-image {
+    height: 120px;
+    width: auto;
+}
