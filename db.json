@@ -3,7 +3,7 @@
         {
             "id": 1,
             "country": "Qatar",
-            "flag": "/.argentina",
+            "flag": "./images/qatar-flag.png",
             "team_image": "",
             "2018_result": "Did not qualify",
             "best": "First appearance",
@@ -13,7 +13,7 @@
         {
             "id": 2,
             "country": "Ecuador",
-            "flag": "",
+            "flag": "./images/ecuador-flag.png",
             "team_image": "",
             "2018_result": "Did not qualify",
             "best": "Round of 16 (2006)",
@@ -23,7 +23,7 @@
         {
             "id": 3,
             "country": "Senegal",
-            "flag": "",
+            "flag": "./images/senegal-flag.png",
             "team_image": "",
             "2018_result": "Group stage",
             "best": "Quarter-finals (2002)",
@@ -33,7 +33,7 @@
         {
             "id": 4,
             "country": "Netherlands",
-            "flag": "",
+            "flag": "./images/netherlands-flag.png",
             "team_image": "",
             "2018_result": "Did not qualify",
             "best": "Final (1974, 1978, 2010)",
@@ -43,7 +43,7 @@
         {
             "id": 5,
             "country": "England",
-            "flag": "",
+            "flag": "./images/england-flag.webp",
             "team_image": "",
             "2018_result": "Fourth-place",
             "best": "Champions (1966)",
@@ -53,7 +53,7 @@
         {
             "id": 6,
             "country": "Iran",
-            "flag": "",
+            "flag": "./images/iran-flag.png",
             "team_image": "",
             "2018_result": "Groupstage",
             "best": "Groupstage (1978, 1998, 2006, 2014, 2018)",
@@ -63,7 +63,7 @@
         {
             "id": 7,
             "country": "United States",
-            "flag": "",
+            "flag": "./images/usa-flag.png",
             "team_image": "",
             "2018_result": "Did not qualify",
             "best": "Tird-place (1930)",
@@ -73,7 +73,7 @@
         {
             "id": 8,
             "country": "Wales",
-            "flag": "",
+            "flag": "./images/wales-flag.png",
             "team_image": "",
             "2018_result": "Did not qualify",
             "best": "Quarter-final (1958)",
@@ -83,7 +83,7 @@
         {
             "id": 9,
             "country": "Argentina",
-            "flag": "",
+            "flag": "./images/argentina-flag.webp",
             "team_image": "",
             "2018_result": "Round of 16",
             "best": "Champions (1978, 1990)",
@@ -93,7 +93,7 @@
         {
             "id": 10,
             "country": "Saudi Arabia",
-            "flag": "",
+            "flag": "./images/saudiarabia-flag.png",
             "team_image": "",
             "2018_result": "Group-stage",
             "best": "Round of 16 (1994)",
@@ -103,7 +103,7 @@
         {
             "id": 11,
             "country": "Mexico",
-            "flag": "",
+            "flag": "./images/mexico-flag.webp",
             "team_image": "",
             "2018_result": "Round of 16",
             "best": "Quarter-final (1970, 1986)",
@@ -114,7 +114,7 @@
             "id": 12,
             "country": "Poland",
             "flag": "",
-            "team_image": "",
+            "team_image": "./images/poland-flag.png",
             "2018_result": "Group stage",
             "best": "Third place (1974, 1982)",
             "captain": "",
@@ -123,7 +123,7 @@
         {
             "id": 13,
             "country": "France",
-            "flag": "",
+            "flag": "./images/france-flag.png",
             "team_image": "",
             "2018_result": "Champions",
             "best": "Champions (1998, 2018)",
@@ -133,7 +133,7 @@
         {
             "id": 14,
             "country": "Australia",
-            "flag": "",
+            "flag": "./images/australia-flag.png",
             "team_image": "",
             "2018_result": "Group stage",
             "best": "Round of 16 (2006)",
@@ -143,7 +143,7 @@
         {
             "id": 15,
             "country": "Denmark",
-            "flag": "",
+            "flag": "./images/denmark-flag.png",
             "team_image": "",
             "2018_result": "Round of 16",
             "best": "Quarter-final (1998)",
@@ -153,7 +153,7 @@
         {
             "id": 16,
             "country": "Tunisia",
-            "flag": "",
+            "flag": "./images/tunisia-flag.png",
             "team_image": "",
             "2018_result": "Group stage",
             "best": "Group stage (1978, 1998, 2002, 2006, 2018)",
