@@ -2,7 +2,7 @@
     "world-cup": [
         {
             "id": 1,
-            "country": "",
+            "country": "Qatar",
             "flag": "",
             "team": "",
             "recent": "",
@@ -12,7 +12,7 @@
         },
         {
             "id": 2,
-            "country": "",
+            "country": "Ecuador",
             "flag": "",
             "team": "",
             "recent": "",
@@ -22,7 +22,7 @@
         },
         {
             "id": 3,
-            "country": "",
+            "country": "Senegal",
             "flag": "",
             "team": "",
             "recent": "",
@@ -32,7 +32,7 @@
         },
         {
             "id": 4,
-            "country": "",
+            "country": "Netherland",
             "flag": "",
             "team": "",
             "recent": "",
@@ -42,7 +42,7 @@
         },
         {
             "id": 5,
-            "country": "",
+            "country": "England",
             "flag": "",
             "team": "",
             "recent": "",
@@ -52,7 +52,7 @@
         },
         {
             "id": 6,
-            "country": "",
+            "country": "Iran",
             "flag": "",
             "team": "",
             "recent": "",
@@ -62,7 +62,7 @@
         },
         {
             "id": 7,
-            "country": "",
+            "country": "United States",
             "flag": "",
             "team": "",
             "recent": "",
@@ -72,7 +72,7 @@
         },
         {
             "id": 8,
-            "country": "",
+            "country": "Wales",
             "flag": "",
             "team": "",
             "recent": "",
@@ -82,7 +82,7 @@
         },
         {
             "id": 9,
-            "country": "",
+            "country": "Argentina",
             "flag": "",
             "team": "",
             "recent": "",
@@ -92,7 +92,7 @@
         },
         {
             "id": 10,
-            "country": "",
+            "country": "Saudi Arabia",
             "flag": "",
             "team": "",
             "recent": "",
@@ -102,7 +102,7 @@
         },
         {
             "id": 11,
-            "country": "",
+            "country": "Mexico",
             "flag": "",
             "team": "",
             "recent": "",
@@ -112,7 +112,7 @@
         },
         {
             "id": 12,
-            "country": "",
+            "country": "Poland",
             "flag": "",
             "team": "",
             "recent": "",
@@ -122,7 +122,7 @@
         },
         {
             "id": 13,
-            "country": "",
+            "country": "France",
             "flag": "",
             "team": "",
             "recent": "",
@@ -132,7 +132,7 @@
         },
         {
             "id": 14,
-            "country": "",
+            "country": "Australia",
             "flag": "",
             "team": "",
             "recent": "",
@@ -142,7 +142,7 @@
         },
         {
             "id": 15,
-            "country": "",
+            "country": "Denmark",
             "flag": "",
             "team": "",
             "recent": "",
@@ -152,7 +152,7 @@
         },
         {
             "id": 16,
-            "country": "",
+            "country": "Tunisia",
             "flag": "",
             "team": "",
             "recent": "",
