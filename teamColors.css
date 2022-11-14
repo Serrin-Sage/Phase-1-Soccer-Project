@@ -1,0 +1,14 @@
+.Qatar {
+    background: linear-gradient(45deg, #8A1538 50%, white 50%);
+    color: rgb(0, 0, 0);
+}
+
+.Ecuador {
+    background: linear-gradient(45deg, #ffdd00 50%, #ed1c24 50%);
+    color: rgb(0, 0, 0);
+}
+
+.Senegal {
+    background: linear-gradient(to right, #00853f ,#fdef42 50%, #e31b23 80%);
+    color: black;
+}

@@ -21,24 +21,39 @@ body {
     justify-content: space-around;
 }
 .main-column {
-    
+    margin: 10px;
+}
+
+#flag-container {
+    /* width: 33%; */
 }
 
 .flag-image {
     height: 70px;
-    width: auto;
+    width: 110px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.flag-image:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.74);
 }
 
 #display{
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     height: 100vh;
 }
 #card {
-    background-color: rgb(226, 226, 226);
+    top: 0;
+    position: sticky;
+    /* background-color: #8A1538;
+    color: white; */
     border-radius: 8px;
+    border: solid 2px black;
+    margin-top: 5rem;
     height: auto;
     width: 300px;
     transition: 0.4s;
