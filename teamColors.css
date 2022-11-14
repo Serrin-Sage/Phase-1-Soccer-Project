@@ -1,14 +1,28 @@
-.Qatar {
-    background: linear-gradient(45deg, #8A1538 50%, white 50%);
+#Qatar {
+    background: linear-gradient(to right, white 40%, #8A1538 40%);
     color: rgb(0, 0, 0);
 }
 
-.Ecuador {
-    background: linear-gradient(45deg, #ffdd00 50%, #ed1c24 50%);
+#Ecuador {
+    background: linear-gradient(to bottom, #ffdd00 60%, blue 60%, blue 80%, #ed1c24  80%);
     color: rgb(0, 0, 0);
 }
 
-.Senegal {
-    background: linear-gradient(to right, #00853f ,#fdef42 50%, #e31b23 80%);
+#Senegal {
+    background: linear-gradient(to right, #00853f 33%,#fdef42 33%, #fdef42 66%, #e31b23 66%);
     color: black;
+}
+
+#Netherlands {
+    background: linear-gradient(to bottom, rgb(184, 0, 0) 33%, white 33%, white 66%, rgb(0, 0, 182) 66%);
+    color: black;
+}
+
+#England {
+    background: linear-gradient(to right, red);
+    color: black;
+}
+
+#Iran {
+    background: linear-gradient(to bottom, green 33%, white 33%, white 66%, red 66%);
 }

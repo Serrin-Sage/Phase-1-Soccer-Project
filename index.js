@@ -4,7 +4,7 @@ console.log("JS is running")
 const flagContainer = document.getElementById("flag-container")
 
 //Get team card elements
-const teamCard = document.getElementById("card")
+const teamCard = document.querySelector(".card")
 const teamImage = document.getElementById("team-image")
 const teamCountry = document.getElementById("team-country")
 const teamRecentResult = document.getElementById("recent-result")
@@ -34,8 +34,6 @@ const fetchDB = () => {
         teamRecentResult.textContent = `2018: ${data[0]["2018_result"]}`
         teamBestResult.textContent = `Best: ${data[0].best}`;
         teamCaptain.textContent = `Captain: ${data[0].captain}`;
-        teamCard.style.backgroundColor = "#8A1538";
-        // teamCard.style.color = "white"
     }))
 }
 
@@ -53,8 +51,8 @@ const renderTeams = (teamObj) => {
         teamCountry.textContent = teamObj.country;
         teamRecentResult.textContent = `2018: ${teamObj["2018_result"]}`;
         teamBestResult.textContent = `Best: ${teamObj.best}`
-        teamCaptain.textContent = `Captain: ${teamObj.captain}`;
-        teamCard.setAttribute("class", `${teamObj.country}`)
+        teamCaptain.textContent = teamObj.captain;
+        teamCard.setAttribute("id", `${teamObj.country}`)
     })
 
 }
