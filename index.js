@@ -18,7 +18,8 @@ const button = document.getElementById('button')
 chooseWinnerForm.addEventListener("submit", (e) => {
     e.preventDefault()
     let formAnswer = document.createElement('p')
-    chooseWinnerForm.innerText = chooseWinnerForm.formAnswer.value
+    
+    // chooseWinnerForm.innerText = formAnswer.value
 })
 
 

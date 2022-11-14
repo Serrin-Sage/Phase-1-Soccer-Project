@@ -84,7 +84,7 @@
             "id": 9,
             "country": "Argentina",
             "flag": "./images/argentina-flag.webp",
-            "team_image": "",
+            "team_image": "./images/argentina-squad.jpg",
             "2018_result": "Round of 16",
             "best": "Champions (1978, 1990)",
             "captain": "Lionel Messi",
