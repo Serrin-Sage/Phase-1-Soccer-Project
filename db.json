@@ -5,9 +5,9 @@
             "country": "Qatar",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Did not qualify",
+            "best": "First appearance",
+            "captain": "Hassan Al-Haydos",
             "votes": 0
         },
         {
@@ -15,9 +15,9 @@
             "country": "Ecuador",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Did not qualify",
+            "best": "Round of 16 (2006)",
+            "captain": "Enner Valencia",
             "votes": 0
         },
         {
@@ -25,19 +25,19 @@
             "country": "Senegal",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Group stage",
+            "best": "Quarter-finals (2002)",
+            "captain": "Kalidou Koulibaly",
             "votes": 0
         },
         {
             "id": 4,
-            "country": "Netherland",
+            "country": "Netherlands",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Did not qualify",
+            "best": "Final (1974, 1978, 2010)",
+            "captain": "Virgil van Dijk",
             "votes": 0
         },
         {
@@ -45,9 +45,9 @@
             "country": "England",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Fourth-place",
+            "best": "Champions (1966)",
+            "captain": "Harry Kane",
             "votes": 0
         },
         {
@@ -55,9 +55,9 @@
             "country": "Iran",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Groupstage",
+            "best": "Groupstage (1978, 1998, 2006, 2014, 2018)",
+            "captain": "Ehsan Hajsafi",
             "votes": 0
         },
         {
@@ -65,9 +65,9 @@
             "country": "United States",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Did not qualify",
+            "best": "Tird-place (1930)",
+            "captain": "Vacant",
             "votes": 0
         },
         {
@@ -75,9 +75,9 @@
             "country": "Wales",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Did not qualify",
+            "best": "Quarter-final (1958)",
+            "captain": "Gareth Bale",
             "votes": 0
         },
         {
@@ -85,9 +85,9 @@
             "country": "Argentina",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Round of 16",
+            "best": "Champions (1978, 1990)",
+            "captain": "Lionel Messi",
             "votes": 0
         },
         {
@@ -95,9 +95,9 @@
             "country": "Saudi Arabia",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Group-stage",
+            "best": "Round of 16 (1994)",
+            "captain": "Salman Al-Faraj",
             "votes": 0
         },
         {
@@ -105,9 +105,9 @@
             "country": "Mexico",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Round of 16",
+            "best": "Quarter-final (1970, 1986)",
+            "captain": "Andrés Guardado",
             "votes": 0
         },
         {
@@ -115,8 +115,8 @@
             "country": "Poland",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
+            "2018_result": "Group stage",
+            "best": "Third place (1974, 1982)",
             "captain": "",
             "votes": 0
         },
@@ -125,9 +125,9 @@
             "country": "France",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Champions",
+            "best": "Champions (1998, 2018)",
+            "captain": "Hugo Lloris",
             "votes": 0
         },
         {
@@ -135,9 +135,9 @@
             "country": "Australia",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Group stage",
+            "best": "Round of 16 (2006)",
+            "captain": "Mathew Ryan",
             "votes": 0
         },
         {
@@ -145,9 +145,9 @@
             "country": "Denmark",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Round of 16",
+            "best": "Quarter-final (1998)",
+            "captain": "Simon Kjær",
             "votes": 0
         },
         {
@@ -155,9 +155,9 @@
             "country": "Tunisia",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Group stage",
+            "best": "Group stage (1978, 1998, 2002, 2006, 2018)",
+            "captain": "Youssef Msakni",
             "votes": 0
         },
         {
@@ -167,7 +167,7 @@
             "team_image": "./images/Spain-Squad.png",
             "2018_result": "Round of 16",
             "best": "Champions (2010)",
-            "captain": "Sergio Busquets",
+            "captain": "Sergio Busquets,
             "votes": 0
         },
         {
