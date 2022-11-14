@@ -163,11 +163,11 @@
         {
             "id": 17,
             "country": "Spain",
-            "flag": "",
-            "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "flag": "./images/SpainFlag.png",
+            "team_image": "./images/Spain-Squad.png",
+            "2018_result": "Round of 16",
+            "best": "Champions (2010)",
+            "captain": "Sergio Busquets,
             "votes": 0
         },
         {
@@ -175,9 +175,9 @@
             "country": "Costa Rica",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Group Stage",
+            "best": "Quarter-finals (2014)",
+            "captain": "Bryan Ruiz",
             "votes": 0
         },
         {
@@ -185,9 +185,9 @@
             "country": "Germany",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Group Stage",
+            "best": "Champions (1954, 1974, 1990, 2014)",
+            "captain": "Manuel Neuer",
             "votes": 0
         },
         {
@@ -195,9 +195,9 @@
             "country": "Japan",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Round of 16",
+            "best": "Round of 16 (2002, 2010, 2018)",
+            "captain": "Maya Yoshida",
             "votes": 0
         },
         {
@@ -205,9 +205,9 @@
             "country": "Belgium",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Third Place",
+            "best": "Third Place (2018)",
+            "captain": "Eden Hazard",
             "votes": 0
         },
         {
@@ -215,9 +215,9 @@
             "country": "Canada",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Did not qualify",
+            "best": "Group Stage (1986)",
+            "captain": "Atiba Hutchinson",
             "votes": 0
         },
         {
@@ -225,9 +225,9 @@
             "country": "Morocco",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Group Stage",
+            "best": "Round of 16 (1986)",
+            "captain": "Romain Saïss",
             "votes": 0
         },
         {
@@ -235,9 +235,9 @@
             "country": "Croatia",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Runners-up",
+            "best": "Runners-up (2018)",
+            "captain": "Luka Modrić",
             "votes": 0
         },
         {
@@ -245,9 +245,9 @@
             "country": "Brazil",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Quarter Finals",
+            "best": "Champions (1958, 1962, 1970, 1994, 2002)",
+            "captain": "Thiago Silva",
             "votes": 0
         },
         {
@@ -255,9 +255,9 @@
             "country": "Serbia",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Group Stage",
+            "best": "Fourth place (1930, 1962)",
+            "captain": "Dušan Tadić",
             "votes": 0
         },
         {
@@ -265,9 +265,9 @@
             "country": "Switzerland",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Round of 16",
+            "best": "Quarter-finals (1934, 1938, 1954)",
+            "captain": "Granit Xhaka",
             "votes": 0
         },
         {
@@ -275,9 +275,9 @@
             "country": "Cameroon",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Did not qualify",
+            "best": "Quarter-finals (1990)",
+            "captain": "Vincent Aboubakar",
             "votes": 0
         },
         {
@@ -285,9 +285,9 @@
             "country": "Portugal",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Round of 16",
+            "best": "Third place (1966)",
+            "captain": "Cristiano Ronaldo",
             "votes": 0
         },
         {
@@ -295,9 +295,9 @@
             "country": "Ghana",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Did not qualify",
+            "best": "Quarter-finals (2010)",
+            "captain": "André Ayew",
             "votes": 0
         },
         {
@@ -305,9 +305,9 @@
             "country": "Uruguay",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Quarter Finals",
+            "best": "Champions (1930, 1950)",
+            "captain": "Diego Godín",
             "votes": 0
         },
         {
@@ -315,9 +315,9 @@
             "country": "South Korea",
             "flag": "",
             "team_image": "",
-            "2018_result": "",
-            "best": "",
-            "captain": "",
+            "2018_result": "Group Stage",
+            "best": "Fourth place (2002)",
+            "captain": "Son Heung-min",
             "votes": 0
         }
     ]

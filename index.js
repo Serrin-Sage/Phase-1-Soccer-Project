@@ -11,7 +11,7 @@ const fetchDB = () => {
 
 const renderTeams = (teamObj) => {
     const teamItem = document.createElement("li")
-    teamItem.textContent = teamObj.id
+    teamItem.textContent = teamObj.team_image
 
     teamListTest.append(teamItem)
 }
