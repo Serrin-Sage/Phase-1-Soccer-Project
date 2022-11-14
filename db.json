@@ -1,0 +1,324 @@
+{
+    "world-cup": [
+        {
+            "id": 1,
+            "country": "",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 2,
+            "country": "",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 3,
+            "country": "",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 4,
+            "country": "",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 5,
+            "country": "",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 6,
+            "country": "",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 7,
+            "country": "",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 8,
+            "country": "",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 9,
+            "country": "",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 10,
+            "country": "",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 11,
+            "country": "",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 12,
+            "country": "",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 13,
+            "country": "",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 14,
+            "country": "",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 15,
+            "country": "",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 16,
+            "country": "",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 17,
+            "country": "Spain",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 18,
+            "country": "Costa Rica",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 19,
+            "country": "Germany",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 20,
+            "country": "Japan",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 21,
+            "country": "Belgium",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 22,
+            "country": "Canada",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 23,
+            "country": "Morocco",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 24,
+            "country": "Croatia",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 25,
+            "country": "Brazil",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 26,
+            "country": "Serbia",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 27,
+            "country": "Switzerland",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 28,
+            "country": "Cameroon",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 29,
+            "country": "Portugal",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 30,
+            "country": "Ghana",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 31,
+            "country": "Uruguay",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        },
+        {
+            "id": 32,
+            "country": "South Korea",
+            "flag": "",
+            "team": "",
+            "recent": "",
+            "best": "",
+            "captain": "",
+            "votes": 0
+        }
+    ]
+}
