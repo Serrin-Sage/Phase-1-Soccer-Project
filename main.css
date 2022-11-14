@@ -20,6 +20,14 @@ body {
     flex-direction: row;
     justify-content: space-around;
 }
+.main-column {
+    
+}
+
+.flag-image {
+    height: 70px;
+    width: auto;
+}
 
 #display{
     text-align: center;
@@ -29,12 +37,15 @@ body {
     height: 100vh;
 }
 #card {
-    background-color: grey;
-    height: 300px;
-    width: 220px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 8px;
+    height: auto;
+    width: 300px;
+    transition: 0.4s;
 }
 
 #team-image {
-    height: 120px;
+    padding-top: 10px;
+    height: 200px;
     width: auto;
 }
