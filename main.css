@@ -47,15 +47,18 @@ body {
     /* align-items: center; */
     height: 100vh;
 }
-#card {
+
+
+.card {
     top: 0;
     position: sticky;
-    /* background-color: #8A1538;
-    color: white; */
+    text-align: center;
+    background-image: linear-gradient(to right, white 40%, #8A1538 40%);
+    /* color: white; */
     border-radius: 8px;
     border: solid 2px black;
     margin-top: 5rem;
-    height: auto;
+    height: fit-content;
     width: 300px;
     transition: 0.4s;
 }
@@ -64,4 +67,11 @@ body {
     padding-top: 10px;
     height: 200px;
     width: auto;
+}
+
+#card-description {
+    background-color: rgba(128, 128, 128, 0.486);
+    width: fit-content;
+    margin: auto;
+    padding: 6px;
 }
