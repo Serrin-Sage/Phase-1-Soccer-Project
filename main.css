@@ -1,20 +1,34 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-    background: rgb(82, 187, 82);
+    /* background: rgb(82, 187, 82); */
+    background-image: url("./images/Stadium.jpg");
+    background-repeat: no-repeat;
+    background-size: 110%;
 }
 #header {
-    background-color: black;
-    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #8A1538;
+        /* linear-gradient(45deg, #8A1538 40%, #910630 55%); */
+    background: white;
     text-align: center;
     margin-bottom: 2rem;
 }
 #header h1 {
+    font-size: 50px;
     margin: 0;
     padding: 1.5rem;
 }
+.fifa-logo {
+    height: 70px;
+    width: auto;
+}
+
 
 #main-container {
     display: flex;
@@ -36,9 +50,9 @@ body {
     cursor: pointer;
     transition: 0.4s;
 }
-.flag-image:hover {
+/* .flag-image:hover {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.74);
-}
+} */
 
 #display{
     text-align: center;
@@ -58,7 +72,7 @@ body {
     border-radius: 8px;
     border: solid 2px black;
     margin-top: 5rem;
-    height: fit-content;
+    height: 450px;
     width: 400px;
     transition: 0.4s;
 }
@@ -70,10 +84,21 @@ body {
 }
 
 #card-description {
-    background-color: rgba(128, 128, 128, 0.281);
+    /* background-color: rgba(128, 128, 128, 0.281); */
+    background: linear-gradient(45deg, #8A1538 40%, #910630 55%);
     border-radius: 10px;
     width: fit-content;
     margin: auto;
     padding: 6px;
     margin-bottom: 8px;
+    border: solid white 2px;
+    color: white;
+}
+
+#form-container {
+    border: solid white 2px;
+    background-color: grey;
+    text-align: center;
+    margin: 2rem;
+    margin-top: 8rem;
 }
