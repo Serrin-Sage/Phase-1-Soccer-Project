@@ -82,16 +82,16 @@
 
 /* Australia */
 #flag-14 {
-    /* background: linear-gradient(to right, blue 20%, white 20, white 40%, red 40%, red 60%, white 60%, white 80%, blue 80%); */
+    /* background: linear-gradient(to right, blue 20%, blue 50%); */
     background: linear-gradient(to right,
-        blue 20%,
-        white 20,
+        darkblue 20%,
+        white 20%,
         white 40%,
         red 40%,
         red 60%,
         white 60%,
         white 80%,
-        blue 80%);
+        darkblue 80%);
 }
 
 /* Denmark */

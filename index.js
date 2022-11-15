@@ -52,8 +52,15 @@ const renderTeams = (teamObj) => {
         teamCountry.textContent = teamObj.country;
         teamRecentResult.textContent = `2018: ${teamObj["2018_result"]}`;
         teamBestResult.textContent = `Best: ${teamObj.best}`
-        teamCaptain.textContent = teamObj.captain;
+        teamCaptain.textContent = `Captain: ${teamObj.captain}`;
         teamCard.setAttribute("id", `flag-${teamObj.id}`)
+    })
+
+    flagImage.addEventListener("mouseover", () => {
+        flagImage.style.boxShadow = "8px 8px 5px rgba(0, 0, 0, 0.74)"
+    })
+    flagImage.addEventListener("mouseout", () => {
+        flagImage.style.boxShadow = "none"
     })
 
 }
