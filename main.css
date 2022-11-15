@@ -53,25 +53,27 @@ body {
     top: 0;
     position: sticky;
     text-align: center;
-    background-image: linear-gradient(to right, white 40%, #8A1538 40%);
+    background-image: linear-gradient(to right, white 30%, #8A1538 30%);
     /* color: white; */
     border-radius: 8px;
     border: solid 2px black;
     margin-top: 5rem;
     height: fit-content;
-    width: 300px;
+    width: 400px;
     transition: 0.4s;
 }
 
 #team-image {
-    padding-top: 10px;
+    margin: 10px;
     height: 200px;
-    width: auto;
+    width: 300px;
 }
 
 #card-description {
-    background-color: rgba(128, 128, 128, 0.486);
+    background-color: rgba(128, 128, 128, 0.281);
+    border-radius: 10px;
     width: fit-content;
     margin: auto;
     padding: 6px;
+    margin-bottom: 8px;
 }
