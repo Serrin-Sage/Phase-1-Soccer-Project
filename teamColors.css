@@ -1,28 +1,203 @@
-#Qatar {
-    background: linear-gradient(to right, white 40%, #8A1538 40%);
+/* Qatar */
+#flag-1 {
+    background: linear-gradient(to right, white 30%, #8A1538 30%);
     color: rgb(0, 0, 0);
 }
 
-#Ecuador {
+/* Ecuador */
+#flag-2 {
     background: linear-gradient(to bottom, #ffdd00 60%, blue 60%, blue 80%, #ed1c24  80%);
     color: rgb(0, 0, 0);
 }
 
-#Senegal {
+/* Senegal */
+#flag-3 {
     background: linear-gradient(to right, #00853f 33%,#fdef42 33%, #fdef42 66%, #e31b23 66%);
     color: black;
 }
 
-#Netherlands {
+/* Netherlands */
+#flag-4 {
     background: linear-gradient(to bottom, rgb(184, 0, 0) 33%, white 33%, white 66%, rgb(0, 0, 182) 66%);
     color: black;
 }
 
-#England {
-    background: linear-gradient(to right, red);
-    color: black;
+/* England */
+#flag-5 {
+    background: linear-gradient(to bottom, white 45%, rgb(202, 0, 0) 45%, rgb(202, 0, 0) 55%, white 55%);
 }
 
-#Iran {
+/* Iran */
+#flag-6 {
     background: linear-gradient(to bottom, green 33%, white 33%, white 66%, red 66%);
+}
+
+/* United States */
+#flag-7 {
+    background: linear-gradient(130deg, blue 33%,
+    red 33%, 
+    red 44%, 
+    white 44%, 
+    white 55%,
+    red 55%,
+    red 66%,
+    white 66%,
+    white 77%,
+    red 77%,
+    red 88%,
+    white 88%,
+    white 99%,
+    red 99% );
+}
+
+/* Wales */
+#flag-8 {
+    background: linear-gradient(white 50%, green 50%);
+}
+
+/* Argentina */
+#flag-9 {
+    background: linear-gradient(to bottom, lightblue 33%, white 33%, white 66%, lightblue 66%);
+}
+
+/* Saudi Arabia */
+#flag-10 {
+    background: linear-gradient(to bottom, darkgreen 45%, white 45%, white 55%, darkgreen 55%);
+}
+
+/* Mexico */
+#flag-11 {
+    background: linear-gradient(to right, darkgreen 33%, white 33%, white 66%, darkred 66%);
+}
+
+/* Poland */
+#flag-12 {
+    background: linear-gradient(to bottom, white 50%, rgb(204, 0, 0) 50%)
+}
+
+/* France */
+#flag-13 {
+    background: linear-gradient(to right, darkblue 33%, white 33%, white 66%, darkred 66%);
+}
+
+/* Australia */
+#flag-14 {
+    /* background: linear-gradient(to right, blue 20%, white 20, white 40%, red 40%, red 60%, white 60%, white 80%, blue 80%); */
+    background: linear-gradient(to right,
+        blue 20%,
+        white 20,
+        white 40%,
+        red 40%,
+        red 60%,
+        white 60%,
+        white 80%,
+        blue 80%);
+}
+
+/* Denmark */
+#flag-15 {
+    background: linear-gradient(to bottom,rgb(202, 0, 0) 45%, white 45%, white 55%, rgb(202, 0, 0) 55%);
+}
+
+/* Tunisia */
+#flag-16 {
+    background: radial-gradient(circle at center, white 30%, rgb(167, 9, 9) 30%);
+}
+
+/* Spain */
+#flag-17 {
+    background: linear-gradient(to bottom, darkred 20%, rgb(224, 224, 12) 20%, rgb(224, 224, 12) 80%, darkred 80%);
+}
+
+/* Costa Rica */
+#flag-18 {
+    background: linear-gradient(to bottom, darkblue 10%, white 10%, white 20%, darkred 20%, darkred 80%, white 80%, white 90%, darkblue 90%);
+}
+
+/* Germany */
+#flag-19 {
+    background: linear-gradient(to bottom, black 33%, red 33%, red 66%, rgb(231, 231, 0) 66%);
+}
+
+/* Japan */
+#flag-20 {
+    background: radial-gradient(circle at center, rgb(212, 0, 0) 40%, white 40%);
+}
+
+/* Belgium */
+#flag-21 {
+    background: linear-gradient(to right, black 33%, red 33%, red 66%, rgb(231, 231, 0) 66%);
+}
+
+/* Canada */
+#flag-22 {
+    background: linear-gradient(to right, red 20%, white 20%, white 80%, red 80%);
+}
+
+/* Morocco */
+#flag-23 {
+    background: radial-gradient(circle at center, darkgreen 20%, darkred 20%);
+}
+
+/* Croatia */
+#flag-24 {
+    background: linear-gradient(to bottom, red 33%, white 33%, white 66%, blue 66%);
+}
+
+/* Brazil */
+#flag-25 {
+    background: radial-gradient(circle at center, gold 10%, gold 30%, darkgreen 30%);
+}
+
+/* Serbia */
+#flag-26 {
+    background: linear-gradient(to bottom, darkred 33%, darkblue 33%, darkblue 66%, white 66%);
+}
+
+/* Switzerland */
+#flag-27 {
+    background: linear-gradient(to right, red 45%, white 45%, white 55%, red 55%);
+
+}
+
+/* Cameroon */
+#flag-28 {
+    background: linear-gradient(to right, rgb(65, 170, 65) 33%, darkred 33%, darkred 66%, gold 66%);
+}
+
+/* Portugal */
+#flag-29 {
+    background: linear-gradient(to right, darkgreen 30%, red 30%);
+}
+
+/* Ghana */
+#flag-30 {
+    background: linear-gradient(to bottom, rgb(190, 0, 0) 33%, gold 33%, gold 66%, darkgreen 66%);
+}
+
+/* Uruguay */
+#flag-31 {
+    background: linear-gradient(to bottom, 
+    white 10%, 
+    rgb(40, 40, 211) 10%, 
+    rgb(40, 40, 211) 20%, 
+    white 20%,
+    white 30%,
+    rgb(40, 40, 211) 30%,
+    rgb(40, 40, 211) 40%,
+    white 40%,
+    white 50%,
+    rgb(40, 40, 211) 50%,
+    rgb(40, 40, 211) 60%,
+    white 60%,
+    white 70%,
+    rgb(40, 40, 211) 70%,
+    rgb(40, 40, 211) 80%,
+    white 80%,
+    white 90%);
+}
+
+/* South Korea */
+#flag-32 {
+    background: radial-gradient(circle at center, red 10%, blue 20%, white 30% );
 }

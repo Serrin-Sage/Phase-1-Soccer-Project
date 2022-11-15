@@ -53,7 +53,7 @@ const renderTeams = (teamObj) => {
         teamRecentResult.textContent = `2018: ${teamObj["2018_result"]}`;
         teamBestResult.textContent = `Best: ${teamObj.best}`
         teamCaptain.textContent = teamObj.captain;
-        teamCard.setAttribute("id", `${teamObj.country}`)
+        teamCard.setAttribute("id", `flag-${teamObj.id}`)
     })
 
 }
