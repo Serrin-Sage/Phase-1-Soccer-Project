@@ -14,11 +14,11 @@ const teamCaptain = document.getElementById("captain")
 //creating variables for form
 const chooseWinnerForm = document.getElementById('choose-winner-form')
 const button = document.getElementById('button')
+const formAnswer = document.getElementById('form-answer')
 
 chooseWinnerForm.addEventListener("submit", (e) => {
     e.preventDefault()
-    let formAnswer = document.createElement('p')
-    
+    let p = document.createElement('p')
     // chooseWinnerForm.innerText = formAnswer.value
 })
 
