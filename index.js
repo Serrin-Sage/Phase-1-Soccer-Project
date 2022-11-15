@@ -10,17 +10,19 @@ const teamCountry = document.getElementById("team-country")
 const teamRecentResult = document.getElementById("recent-result")
 const teamBestResult = document.getElementById("best-result")
 const teamCaptain = document.getElementById("captain")
+const votes = document.getElementById('votes')
 
 //creating variables for form
 const chooseWinnerForm = document.getElementById('choose-winner-form')
 const button = document.getElementById('button')
 const formAnswer = document.getElementById('form-answer')
+let count = 0
+const heading = document.getElementById('heading')
 
-chooseWinnerForm.addEventListener("submit", (e) => {
-    e.preventDefault()
-    let p = document.createElement('p')
-    // chooseWinnerForm.innerText = formAnswer.value
-})
+let p = document.createElement('p')
+p.innerText = count
+heading.append(p)
+
 
 
 //Fetch database, for each object => render the team
@@ -35,6 +37,7 @@ const fetchDB = () => {
         teamRecentResult.textContent = `2018: ${data[0]["2018_result"]}`
         teamBestResult.textContent = `Best: ${data[0].best}`;
         teamCaptain.textContent = `Captain: ${data[0].captain}`;
+        votes.textContent = `Votes: ${data[0].votes}`
     }))
 }
 
@@ -53,6 +56,7 @@ const renderTeams = (teamObj) => {
         teamRecentResult.textContent = `2018: ${teamObj["2018_result"]}`;
         teamBestResult.textContent = `Best: ${teamObj.best}`
         teamCaptain.textContent = `Captain: ${teamObj.captain}`;
+        votes.textContent = `Votes: ${teamObj.votes}` 
         teamCard.setAttribute("id", `flag-${teamObj.id}`)
     })
 
@@ -62,7 +66,15 @@ const renderTeams = (teamObj) => {
     flagImage.addEventListener("mouseout", () => {
         flagImage.style.boxShadow = "none"
     })
-
+    
+    chooseWinnerForm.addEventListener("submit", (e) => {
+        e.preventDefault()
+        count = count + 1
+        p.innerText = count
+        if (chooseWinnerForm.formAnswer.value === teamObj.country){
+            votes.textContent = count
+        }
+    })
 }
 
 fetchDB()
