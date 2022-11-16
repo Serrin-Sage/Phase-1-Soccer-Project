@@ -12,17 +12,14 @@ const teamBestResult = document.getElementById("best-result")
 const teamCaptain = document.getElementById("captain")
 const votes = document.getElementById('votes')
 
-//creating variables for form
-const chooseWinnerForm = document.getElementById('choose-winner-form')
-const button = document.getElementById('button')
-const formAnswer = document.getElementById('form-answer')
-let count = 0
-const heading = document.getElementById('heading')
+let globalTeamObj;
+let selectedId = 1
 
-let p = document.createElement('p')
-p.innerText = count
-heading.append(p)
-
+fetch("http://localhost:3000/world-cup")
+    .then((res) => res.json())
+    .then((data => {
+        globalTeamObj = data;
+}))
 
 
 //Fetch database, for each object => render the team
@@ -38,6 +35,8 @@ const fetchDB = () => {
         teamBestResult.textContent = `Best: ${data[0].best}`;
         teamCaptain.textContent = `Captain: ${data[0].captain}`;
         votes.textContent = `Votes: ${data[0].votes}`
+        teamCard.setAttribute("id", `flag-${data[0].id}`);
+        votes.setAttribute("id", `${data[0].id}`)
     }))
 }
 
@@ -56,8 +55,10 @@ const renderTeams = (teamObj) => {
         teamRecentResult.textContent = `2018: ${teamObj["2018_result"]}`;
         teamBestResult.textContent = `Best: ${teamObj.best}`
         teamCaptain.textContent = `Captain: ${teamObj.captain}`;
-        votes.textContent = `Votes: ${teamObj.votes}` 
-        teamCard.setAttribute("id", `flag-${teamObj.id}`)
+        votes.textContent = `Votes: ${teamObj.votes}`;
+        teamCard.setAttribute("id", `flag-${teamObj.id}`);
+        votes.setAttribute("id", `${teamObj.id}`)
+        selectedId = teamObj.id
     })
 
     flagImage.addEventListener("mouseover", () => {
@@ -67,14 +68,32 @@ const renderTeams = (teamObj) => {
         flagImage.style.boxShadow = "none"
     })
     
-    chooseWinnerForm.addEventListener("submit", (e) => {
-        e.preventDefault()
-        count = count + 1
-        p.innerText = count
-        if (chooseWinnerForm.formAnswer.value === teamObj.country){
-            votes.textContent = count
-        }
-    })
 }
 
+
+//creating variables for form
+const chooseWinnerForm = document.getElementById('choose-winner-form')
+const heading = document.getElementById('heading')
+const voteList = document.getElementById("vote-list")
+// let currentVotes = 0;
+
+chooseWinnerForm.addEventListener("submit", (e) => {
+    const inputCountry = chooseWinnerForm.formAnswer.value
+    let currentVotes = document.getElementById(`${selectedId}`)
+    let count = 0;
+    e.preventDefault()
+    for (let i = 0; i < globalTeamObj.length; i++) {
+        if (globalTeamObj[i].country === inputCountry) {
+            count++;
+            currentVotes.textContent = count;
+        }
+    }
+    // if (globalTeamObj.find(country => country.country === inputCountry)){
+    //     console.log(inputCountry)
+    //     console.log(globalTeamObj[selectedId].country)
+    // }
+    
+})
+
 fetchDB()
+// console.log(globalTeamObj)
