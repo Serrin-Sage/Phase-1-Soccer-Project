@@ -10,17 +10,10 @@ const teamCountry = document.getElementById("team-country")
 const teamRecentResult = document.getElementById("recent-result")
 const teamBestResult = document.getElementById("best-result")
 const teamCaptain = document.getElementById("captain")
-const votes = document.getElementById('votes')
+// const votes = document.getElementById('votes')
 
 let globalTeamObj;
 let selectedId = 1
-
-fetch("http://localhost:3000/world-cup")
-    .then((res) => res.json())
-    .then((data => {
-        globalTeamObj = data;
-}))
-
 
 //Fetch database, for each object => render the team
 //set initial card to first object properties
@@ -29,14 +22,15 @@ const fetchDB = () => {
     .then((res) => res.json())
     .then((data => {
         data.forEach((item) => renderTeams(item));
+        globalTeamObj = data;
         teamImage.src = data[0]["team_image"];
         teamCountry.textContent = data[0].country;
         teamRecentResult.textContent = `2018: ${data[0]["2018_result"]}`
         teamBestResult.textContent = `Best: ${data[0].best}`;
         teamCaptain.textContent = `Captain: ${data[0].captain}`;
-        votes.textContent = `Votes: ${data[0].votes}`
+        // votes.textContent = `Votes: ${data[0].votes}`
         teamCard.setAttribute("id", `flag-${data[0].id}`);
-        votes.setAttribute("id", `${data[0].id}`)
+        // votes.setAttribute("id", `${data[0].id}`)
     }))
 }
 
@@ -55,9 +49,9 @@ const renderTeams = (teamObj) => {
         teamRecentResult.textContent = `2018: ${teamObj["2018_result"]}`;
         teamBestResult.textContent = `Best: ${teamObj.best}`
         teamCaptain.textContent = `Captain: ${teamObj.captain}`;
-        votes.textContent = `Votes: ${teamObj.votes}`;
+        // votes.textContent = `Votes: ${teamObj.votes}`;
         teamCard.setAttribute("id", `flag-${teamObj.id}`);
-        votes.setAttribute("id", `${teamObj.id}`)
+        // votes.setAttribute("id", `${teamObj.id}`)
         selectedId = teamObj.id
     })
 
@@ -77,21 +71,22 @@ const heading = document.getElementById('heading')
 const voteList = document.getElementById("vote-list")
 // let currentVotes = 0;
 
+let countryArray = []
 chooseWinnerForm.addEventListener("submit", (e) => {
     const inputCountry = chooseWinnerForm.formAnswer.value
     let currentVotes = document.getElementById(`${selectedId}`)
+    const testElement = document.createElement("p")
     let count = 0;
     e.preventDefault()
-    for (let i = 0; i < globalTeamObj.length; i++) {
-        if (globalTeamObj[i].country === inputCountry) {
-            count++;
-            currentVotes.textContent = count;
+    if (globalTeamObj.find(country => country.country === inputCountry)){
+        if (countryArray.includes(inputCountry)) {
+
+        } else {
+            countryArray.push(inputCountry)
+            testElement.textContent = inputCountry
+            voteList.append(testElement)
         }
     }
-    // if (globalTeamObj.find(country => country.country === inputCountry)){
-    //     console.log(inputCountry)
-    //     console.log(globalTeamObj[selectedId].country)
-    // }
     
 })
 
