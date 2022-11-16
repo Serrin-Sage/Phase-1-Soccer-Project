@@ -1,12 +1,14 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100vh;
+    /* width: 100vw;
+    height: 100vh; */
     /* background: rgb(82, 187, 82); */
     background-image: url("./images/Stadium.jpg");
     background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: contain;
+    position: sticky;
+    overflow: scroll;
 }
 #header {
     display: flex;
