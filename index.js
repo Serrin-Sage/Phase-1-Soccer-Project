@@ -10,17 +10,20 @@ const teamCountry = document.getElementById("team-country")
 const teamRecentResult = document.getElementById("recent-result")
 const teamBestResult = document.getElementById("best-result")
 const teamCaptain = document.getElementById("captain")
-// const votes = document.getElementById('votes')
+const votes = document.getElementById('votes')
 
 let globalTeamObj;
 let selectedId = 1
-
+let teamJsonObject = {};
 //Fetch database, for each object => render the team
 //set initial card to first object properties
 const fetchDB = () => {
     fetch("http://localhost:3000/world-cup")
     .then((res) => res.json())
     .then((data => {
+        data.forEach((item) => {
+            teamJsonObject[item.country] = item;
+        })
         data.forEach((item) => renderTeams(item));
         globalTeamObj = data;
         teamImage.src = data[0]["team_image"];
@@ -28,9 +31,9 @@ const fetchDB = () => {
         teamRecentResult.textContent = `2018: ${data[0]["2018_result"]}`
         teamBestResult.textContent = `Best: ${data[0].best}`;
         teamCaptain.textContent = `Captain: ${data[0].captain}`;
-        // votes.textContent = `Votes: ${data[0].votes}`
+        votes.textContent = `Votes: ${data[0].votes}`
         teamCard.setAttribute("id", `flag-${data[0].id}`);
-        // votes.setAttribute("id", `${data[0].id}`)
+        votes.setAttribute("id", `${data[0].country}`)
     }))
 }
 
@@ -49,9 +52,9 @@ const renderTeams = (teamObj) => {
         teamRecentResult.textContent = `2018: ${teamObj["2018_result"]}`;
         teamBestResult.textContent = `Best: ${teamObj.best}`
         teamCaptain.textContent = `Captain: ${teamObj.captain}`;
-        // votes.textContent = `Votes: ${teamObj.votes}`;
+        votes.textContent = `Votes: ${teamObj.votes}`;
         teamCard.setAttribute("id", `flag-${teamObj.id}`);
-        // votes.setAttribute("id", `${teamObj.id}`)
+        votes.setAttribute("id", `${teamObj.country.replace(" ","-")}`)
         selectedId = teamObj.id
     })
 
@@ -71,22 +74,26 @@ const heading = document.getElementById('heading')
 const voteList = document.getElementById("vote-list")
 // let currentVotes = 0;
 
-let countryArray = []
+let countrySet = new Set()
 chooseWinnerForm.addEventListener("submit", (e) => {
-    const inputCountry = chooseWinnerForm.formAnswer.value
-    let currentVotes = document.getElementById(`${selectedId}`)
-    const testElement = document.createElement("p")
-    let count = 0;
     e.preventDefault()
-    if (globalTeamObj.find(country => country.country === inputCountry)){
-        if (countryArray.includes(inputCountry)) {
-
-        } else {
-            countryArray.push(inputCountry)
-            testElement.textContent = inputCountry
+    const votedCountry = chooseWinnerForm.formAnswer.value
+    
+    if (teamJsonObject[votedCountry]) {
+        teamJsonObject[votedCountry].votes = teamJsonObject[votedCountry].votes + 1
+        countrySet.add(votedCountry)
+        voteList.innerHTML = ""
+        //Remove children and update specified country
+        Array.from(countrySet).forEach(country => {
+            let testElement = document.createElement("p")
+            testElement.textContent = country + " " + teamJsonObject[country].votes
             voteList.append(testElement)
-        }
-    }
+        })
+        let currentCountry = document.getElementById('team-country').textContent
+        document.getElementById(currentCountry.replace(" ","-")).textContent = `Votes: ${teamJsonObject[currentCountry].votes}`
+        console.log(teamJsonObject)
+    } 
+   
     
 })
 
