@@ -54,9 +54,9 @@ body {
     cursor: pointer;
     transition: 0.4s;
 }
-/* .flag-image:hover {
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.74);
-} */
+.flag-image:hover {
+    scale: 1.2;
+}
 
 #display{
     text-align: center;
