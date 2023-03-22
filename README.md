@@ -1,4 +1,4 @@
-# 2022 World Cup Voter
+# 2022 World Cup Profiler 
 
 The 2022 World Cup Voter provides a complete profile on all 32 countries competing in the 2022 World Cup in Qatar. Users can see a description on each country's historical and recent success. Using this information, they are encouraged to put in their vote for who they believe will take home the trophy. 
 
