@@ -8,7 +8,10 @@
             "2018_result": "Did not qualify",
             "best": "First appearance",
             "captain": "Hassan Al-Haydos",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Groupstage", 
+            "group_stage": "Last", 
+            "most_goals": "Mohammed Muntari (1)" 
         },
         {
             "id": 2,
@@ -18,7 +21,10 @@
             "2018_result": "Did not qualify",
             "best": "Round of 16 (2006)",
             "captain": "Enner Valencia",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Groupstage", 
+            "group_stage": "Third place", 
+            "most_goals": "Enner Valencia (3)" 
         },
         {
             "id": 3,
@@ -28,7 +34,10 @@
             "2018_result": "Group stage",
             "best": "Quarter-finals (2002)",
             "captain": "Kalidou Koulibaly",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Round of 16", 
+            "group_stage": "Second place", 
+            "most_goals": "Bamba Dieng (1)" 
         },
         {
             "id": 4,
@@ -38,7 +47,10 @@
             "2018_result": "Did not qualify",
             "best": "Final (1974, 1978, 2010)",
             "captain": "Virgil van Dijk",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Quarterfinal", 
+            "group_stage": "Won", 
+            "most_goals": "Cody Gakpo (3)" 
         },
         {
             "id": 5,
@@ -48,7 +60,10 @@
             "2018_result": "Fourth-place",
             "best": "Champions (1966)",
             "captain": "Harry Kane",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Won", 
+            "group_stage": "Quarterfinal", 
+            "most_goals": "Bukayo Saka (3)" 
         },
         {
             "id": 6,
@@ -58,7 +73,10 @@
             "2018_result": "Groupstage",
             "best": "Groupstage (1978, 1998, 2006, 2014, 2018)",
             "captain": "Ehsan Hajsafi",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Groupstage", 
+            "group_stage": "Third place", 
+            "most_goals": "Mehdi Taremi (2)" 
         },
         {
             "id": 7,
@@ -68,7 +86,10 @@
             "2018_result": "Did not qualify",
             "best": "Third place (1930)",
             "captain": "Vacant",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Round of 16", 
+            "group_stage": "Second place", 
+            "most_goals": "Christian Pulisic (1)" 
         },
         {
             "id": 8,
@@ -78,7 +99,10 @@
             "2018_result": "Did not qualify",
             "best": "Quarter-finals (1958)",
             "captain": "Gareth Bale",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Groupstage", 
+            "group_stage": "Last", 
+            "most_goals": "Gareth Bale (1)" 
         },
         {
             "id": 9,
@@ -88,7 +112,10 @@
             "2018_result": "Round of 16",
             "best": "Champions (1978, 1990)",
             "captain": "Lionel Messi",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Champions",
+            "group_stage": "Won",
+            "most_goals": "Lionel Messi (7) "
         },
         {
             "id": 10,
@@ -98,7 +125,10 @@
             "2018_result": "Group-stage",
             "best": "Round of 16 (1994)",
             "captain": "Salman Al-Faraj",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Groupstage", 
+            "group_stage": "Last", 
+            "most_goals": "Salem Al-Dawsari (2)" 
         },
         {
             "id": 11,
@@ -108,7 +138,10 @@
             "2018_result": "Round of 16",
             "best": "Quarter-finals (1970, 1986)",
             "captain": "Andrés Guardado",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Groupstage", 
+            "group_stage": "Third place", 
+            "most_goals": "Henry Martin (1)" 
         },
         {
             "id": 12,
@@ -118,7 +151,10 @@
             "2018_result": "Group stage",
             "best": "Third place (1974, 1982)",
             "captain": "Robert Lewandowski",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Round of 16", 
+            "group_stage": "Second place", 
+            "most_goals": "Robert Lewandowski (2)" 
         },
         {
             "id": 13,
@@ -128,7 +164,10 @@
             "2018_result": "Champions",
             "best": "Champions (1998, 2018)",
             "captain": "Hugo Lloris",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Runners-up", 
+            "group_stage": "Won", 
+            "most_goals": "Kylian Mbappe (8)" 
         },
         {
             "id": 14,
@@ -138,7 +177,10 @@
             "2018_result": "Group stage",
             "best": "Round of 16 (2006)",
             "captain": "Mathew Ryan",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Round of 16", 
+            "group_stage": "Second place", 
+            "most_goals": "Craig Goodwin (1)" 
         },
         {
             "id": 15,
@@ -148,7 +190,10 @@
             "2018_result": "Round of 16",
             "best": "Quarter-finals (1998)",
             "captain": "Simon Kjær",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Groupstage",
+            "group_stage": "Last",
+            "most_goals": "Andreas Christensen (1)"
         },
         {
             "id": 16,
@@ -158,7 +203,10 @@
             "2018_result": "Group stage",
             "best": "Group stage (1978, 1998, 2002, 2006, 2018)",
             "captain": "Youssef Msakni",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Groupstage", 
+            "group_stage": "Last", 
+            "most_goals": "Wahbi Khazri (1)" 
         },
         {
             "id": 17,
@@ -168,7 +216,10 @@
             "2018_result": "Round of 16",
             "best": "Champions (2010)",
             "captain": "Sergio Busquets",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Round of 16", 
+            "group_stage": "Second place", 
+            "most_goals": "Alvaro Morata (3)" 
         },
         {
             "id": 18,
@@ -178,7 +229,10 @@
             "2018_result": "Group Stage",
             "best": "Quarter-finals (2014)",
             "captain": "Bryan Ruiz",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Groupstage", 
+            "group_stage": "Last", 
+            "most_goals": "Yeltsin Tejeda (1)" 
         },
         {
             "id": 19,
@@ -188,7 +242,10 @@
             "2018_result": "Group Stage",
             "best": "Champions (1954, 1974, 1990, 2014)",
             "captain": "Manuel Neuer",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Groupstage", 
+            "group_stage": "Third place", 
+            "most_goals": "Kai Havertz (2)" 
         },
         {
             "id": 20,
@@ -198,7 +255,10 @@
             "2018_result": "Round of 16",
             "best": "Round of 16 (2002, 2010, 2018)",
             "captain": "Maya Yoshida",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Round of 16", 
+            "group_stage": "Won", 
+            "most_goals": "Ritsu Doan (2)" 
         },
         {
             "id": 21,
@@ -208,7 +268,10 @@
             "2018_result": "Third Place",
             "best": "Third place (2018)",
             "captain": "Eden Hazard",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Groupstage", 
+            "group_stage": "Third place", 
+            "most_goals": "Michy Batshuayi (1)" 
         },
         {
             "id": 22,
@@ -218,7 +281,10 @@
             "2018_result": "Did not qualify",
             "best": "Group Stage (1986)",
             "captain": "Atiba Hutchinson",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Groupstage", 
+            "group_stage": "Last", 
+            "most_goals": "Alphonso Davies (1)" 
         },
         {
             "id": 23,
@@ -228,7 +294,10 @@
             "2018_result": "Group Stage",
             "best": "Round of 16 (1986)",
             "captain": "Romain Saïss",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Semifinal", 
+            "group_stage": "Won", 
+            "most_goals": "Youssef En-Nesyri (2)" 
         },
         {
             "id": 24,
@@ -238,7 +307,10 @@
             "2018_result": "Runners-up",
             "best": "Final (2018)",
             "captain": "Luka Modrić",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Semifinal", 
+            "group_stage": "Second place", 
+            "most_goals": "Andrej Kramaric (2)" 
         },
         {
             "id": 25,
@@ -248,7 +320,10 @@
             "2018_result": "Quarter Finals",
             "best": "Champions (1958, 1962, 1970, 1994, 2002)",
             "captain": "Thiago Silva",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Quarterfinal", 
+            "group_stage": "Won", 
+            "most_goals": "Richarlison (3)" 
         },
         {
             "id": 26,
@@ -258,7 +333,10 @@
             "2018_result": "Group Stage",
             "best": "Fourth place (1930, 1962)",
             "captain": "Dušan Tadić",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Groupstage", 
+            "group_stage": "Last", 
+            "most_goals": "Aleksandar Mitrovic (2)" 
         },
         {
             "id": 27,
@@ -268,7 +346,10 @@
             "2018_result": "Round of 16",
             "best": "Quarter-finals (1934, 1938, 1954)",
             "captain": "Granit Xhaka",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Round of 16", 
+            "group_stage": "Second place", 
+            "most_goals": "Breel Embolo (2)" 
         },
         {
             "id": 28,
@@ -278,7 +359,10 @@
             "2018_result": "Did not qualify",
             "best": "Quarter-finals (1990)",
             "captain": "Vincent Aboubakar",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Groupstage", 
+            "group_stage": "Third place", 
+            "most_goals": "Vincent Aboubakar (2)" 
         },
         {
             "id": 29,
@@ -288,7 +372,10 @@
             "2018_result": "Round of 16",
             "best": "Third place (1966)",
             "captain": "Cristiano Ronaldo",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Quarterfinal", 
+            "group_stage": "Won", 
+            "most_goals": "Goncalo Ramos (3)" 
         },
         {
             "id": 30,
@@ -298,7 +385,10 @@
             "2018_result": "Did not qualify",
             "best": "Quarter-finals (2010)",
             "captain": "André Ayew",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Groupstage", 
+            "group_stage": "Last", 
+            "most_goals": "Mohammed Kudus (2)" 
         },
         {
             "id": 31,
@@ -308,7 +398,10 @@
             "2018_result": "Quarter Finals",
             "best": "Champions (1930, 1950)",
             "captain": "Diego Godín",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Groupstage", 
+            "group_stage": "Third place", 
+            "most_goals": "Giorgian De Arrascaeta (2)" 
         },
         {
             "id": 32,
@@ -318,7 +411,11 @@
             "2018_result": "Group Stage",
             "best": "Fourth place (2002)",
             "captain": "Son Heung-min",
-            "votes": 0
+            "votes": 0, 
+            "2022_result": "Round of 16", 
+            "group_stage": "Second place", 
+            "most_goals": "Cho Gue-song (1)" 
         }
     ]
 }
+
