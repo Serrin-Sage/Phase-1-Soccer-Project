@@ -1,4 +1,8 @@
-#main-body{
+a{
+    text-decoration: none;
+}
+
+#home-body{
     margin: 0;
     padding: 0;
     /* width: 100vw;
@@ -8,20 +12,35 @@
     background-repeat: no-repeat;
     background-size: 100%;
     /* overflow: scroll; */
-    background-color: rgb(255, 255, 255); 
-}
+    background-color: rgb(255, 255, 255);  
+} 
 
 #subheader {
-    position: relative; 
-    top: -32px; 
-    text-align: center; 
-    height: 40px; 
-    width: 100%; 
-    font-size: 30px; 
-    background-color: #8A1538; 
-    color: rgb(255, 255, 255); 
-}
+    position: relative;
+    top: -32px;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    font-size: 30px;
+    background-color: #8A1538;
+    color: rgb(255, 255, 255);        
+} 
 
+/* ____________________________________________________ */ 
+
+#recap-body{
+    margin: 0;
+    padding: 0;
+    /* width: 100vw;
+    height: 100vh; */
+    /* background: rgb(82, 187, 82); */
+    background-image: url("https://static01.nyt.com/images/2022/11/21/sports/21worldcup-onsoccer2/20worldcup-onsoccer2-videoSixteenByNineJumbo1600.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* overflow: scroll; */
+    background-color: rgb(255, 255, 255);  
+} 
+ 
  /* ________________________________________________________________ */
 #preview-body{
     margin: 0;
