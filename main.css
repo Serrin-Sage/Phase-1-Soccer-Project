@@ -1,4 +1,29 @@
-body {
+#main-body{
+    margin: 0;
+    padding: 0;
+    /* width: 100vw;
+    height: 100vh; */
+    /* background: rgb(82, 187, 82); */
+    background-image: url("https://media.tenor.com/SUtUv7dYFkUAAAAC/lionel-messi-lifting-the-world-cup-trophy.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* overflow: scroll; */
+    background-color: rgb(255, 255, 255); 
+}
+
+#subheader {
+    position: relative; 
+    top: -32px; 
+    text-align: center; 
+    height: 40px; 
+    width: 100%; 
+    font-size: 30px; 
+    background-color: #8A1538; 
+    color: rgb(255, 255, 255); 
+}
+
+ /* ________________________________________________________________ */
+#preview-body{
     margin: 0;
     padding: 0;
     /* width: 100vw;
@@ -8,7 +33,7 @@ body {
     background-repeat: no-repeat;
     background-size: 160%;
     /* overflow: scroll; */
-    background-color: rgb(75, 241, 75);
+    background-color: rgb(255, 255, 255); 
 }
 #header {
     display: flex;
@@ -115,4 +140,4 @@ body {
 #submit-button {
     margin: 8px;
     cursor: pointer;
-}
+} 
